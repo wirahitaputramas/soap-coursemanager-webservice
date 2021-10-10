@@ -1,3 +1,4 @@
+/* after implementing get course details */
 package com.devoid.soap.webservices.soapcoursemanagement.soap;
 
 import org.springframework.ws.server.endpoint.annotation.Endpoint;
