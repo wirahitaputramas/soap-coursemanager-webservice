@@ -4,8 +4,11 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import org.springframework.stereotype.Component;
+
 import com.devoid.soap.webservices.soapcoursemanagement.soap.bean.Course;
 
+@Component
 public class CourseDetailsService {
 
 	private static List<Course> courses = new ArrayList<>();
